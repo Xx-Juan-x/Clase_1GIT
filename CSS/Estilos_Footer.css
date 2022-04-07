@@ -1,0 +1,35 @@
+/*Footer - Pie de Página*/
+
+.Contenedor-Footer{
+	width: 100%;
+	padding: 40px 0;
+	background: #f7f7f7;
+	margin-top: 40px;
+}
+
+.Contenedor-Footer footer .Logo-Footer{
+	text-align: center;
+	max-width: 80%;
+	margin: 20px auto;
+}
+
+.Contenedor-Footer footer .Logo-Footer img{
+	width: 10%;
+	border-radius: 100%;
+}
+
+.Contenedor-Footer footer hr{
+	margin-top: 20px;
+	border: none;
+	height: 2px;
+	background: #c0c0c07a;
+	max-width: 80%;
+	margin: 0 auto;
+}
+
+.Contenedor-Footer h4{
+	text-align: center;
+	margin-top: 20px;
+	color: #8e8e8e;
+	font-weight: 500px;
+}

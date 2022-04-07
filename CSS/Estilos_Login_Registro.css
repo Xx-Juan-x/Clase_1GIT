@@ -1,0 +1,83 @@
+.Cuerpo-PaginaRegistro, .Cuerpo-PaginaLogin {
+	font-family: Arial, Helvatica, sans-serif;
+	margin: 0;
+	background: url(https://i.pinimg.com/originals/75/36/45/753645ed4808988db70b84c6a44c83c1.jpg);
+}
+
+*{
+	box-sizing: border-box;
+}
+
+
+.Contenedor{
+	width: 100%;
+	padding: 15px;
+}
+
+.Formulario__Login, .Formulario__Registro{
+	background: #fff;
+	margin-top: 130px;
+	padding: 3px;
+}
+
+.Titulo-Registro, .Titulo-Login{
+	text-align: center;
+	color: #1a2537;
+	font-size: 40px;
+}
+
+.Campo{
+	font-size: 20px;
+	width: 82%;
+	padding: 10px;
+	border: none;
+}
+
+.Input-Contenedor{
+	margin-bottom: 15px;
+	border: 2px solid #aaa;
+}
+
+.icon{
+	min-width: 50px;
+	text-align: center;
+	color: #999;
+}
+
+#button__iniciar-sesion, #button__registrarte{
+	border: none;
+	width: 100%;
+	color: white;
+	font-size: 20px;
+	background: #1a2537;
+	padding: 15px 20px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+#button__iniciar-sesion:hover, #button__registrarte:hover{
+	background: cadetblue;
+}
+
+p {
+	text-align: center;
+}
+
+.link_Registro, .link_Login{
+	text-decoration: none;
+	color: #1a2537;
+	font-weight: 600;
+}
+
+.link_Registro:hover, .link_Login:hover{
+	color: cadetblue;
+}
+
+@media(min-width: 768px){
+	.Formulario__Login, .Formulario__Registro{
+		margin: auto;
+		width: 500px;
+		margin-top: 130px;
+		border-radius: 2%;
+	}
+}

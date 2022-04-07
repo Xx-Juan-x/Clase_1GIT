@@ -1,0 +1,153 @@
+/* Estilo del formulario del artículo*/
+.Contenedor_Formulario_Articulos{
+	background: #24303c; 
+	padding: 20px;
+	border-radius: 8px;
+	color: white;
+	box-shadow: 7px 13px 37px #000;
+}
+
+.Formulario__Articulos{
+	background: #fff;
+	padding: 100px;
+	width: 100%;
+}
+
+.Titulo-Articulo{
+	height: 40px;
+	text-align: center;
+	font-size: 25px;
+	margin-bottom: 5px;
+}
+
+.Subtitulo-Articulo{
+	font-size: 16px;
+	padding: 15px 0;
+}
+
+.Campo{
+	background: #fff;
+	width: 100%;
+	padding: 10px;
+	border: 1px solid #1f53c5;
+	border-radius: 4px;
+	margin-bottom: 16px;
+	font-family: 'calibri';
+	font-size: 18px;
+}
+
+.Input-Contenedor-Radio input[type="radio"]{
+	display: none;
+}
+
+.Input-Contenedor-Radio label{
+	color: white;
+	padding: 20px;
+	display: inline-block;
+	border-radius: 3px;
+	cursor: pointer;
+	margin-bottom: 20px;
+	width: 100%;
+	text-align: center;
+}
+
+.Input-Contenedor-Radio label:hover{
+	background: cadetblue;
+}
+
+.Input-Contenedor-Radio label:before{
+	content: "";
+	display: inline-block;
+	background: none;
+}
+
+.Input-Contenedor-Radio input[type="radio"]:checked + label{
+	padding: 5px, 15px;
+	background: #019CDE;
+	border-radius: 8px;
+	color: #fff;
+}
+
+.Input-Contenedor-Radio input[type="radio"]:checked + label:before{
+	display: none;
+}
+
+#button__guardar, #button__limpiar{
+	border: none;
+	width: 49%;
+	color: white;
+	font-size: 20px;
+	background: #1a2537;
+	padding: 15px 20px;
+	border-radius: 5px;
+	cursor: pointer;
+	display: inline-block;
+	margin: 10px 0;
+}
+
+#button__guardar:hover, #button__limpiar:hover{
+	background: cadetblue;
+}
+
+/*Estilo del boton Modificar*/
+.Boton-Editar{
+	border: none;
+	width: 100%;
+	color: white;
+	font-size: 20px;
+	background: #1a2537;
+	padding: 15px 20px;
+	border-radius: 5px;
+	cursor: pointer;
+	display: inline-block;
+	margin: 10px 0;
+}
+
+.Boton-Editar:hover{
+	background: cadetblue;
+}
+
+/*Estilos de la Tabla*/
+
+table{
+	text-align: center;
+	background: #f5f5f5;
+	border-collapse: collapse;
+	width: 100%;
+	margin: 20px, 20px;
+}
+
+td{
+	padding: 20px;
+	border-bottom: solid 3px;
+}
+
+th{
+	padding: 30px;
+}
+
+thead{
+	background-color: cadetblue;
+	border-bottom: solid 5px #0F362D;
+	color: white;
+}
+
+tr:nth-child(even){
+	background-color: #ddd;
+}
+
+tr:hover td{
+	background-color: #369681;
+	color: white;
+}
+
+.fa-edit, .fa-trash-alt{
+	font-size: 23px;
+	color: black;
+	text-decoration: none;
+}
+
+.fa-edit:hover, .fa-trash-alt:hover{
+	font-size: 30px;
+	color: rgb(63, 60, 60);
+}
